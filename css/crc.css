@@ -1,0 +1,183 @@
+body {
+  background-color: #eee1d2;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  font-family: Georgia, sans-serif;
+  font-size: 60px;
+  padding: 20px;
+  text-align: center;
+}
+
+.fixed-bg {
+  background-image: url("../backgrounds/bathhouse2.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.fixed-bg2 {
+  background-image: url("../images/crc-old2.JPG ");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.fixed-bg3 {
+  background-image: url("../images/crc-old.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.fixed-bg4 {
+  background-image: url("../backgrounds/haku.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+section {
+  height: auto; 
+  max-width: 800px;
+  padding: 50px 20px;
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+div {
+  margin:10px 0px;
+}
+
+div .list-item {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 2px;
+  width:35px;
+  height:35px;
+  border-radius:50%;
+  background-color:#22AFA5;
+  color:#eee1d2;
+  font-weight: bold;
+}
+
+.crc-img {
+  margin: 0 auto;
+  padding: 10px 0px;
+  width: 45%;
+  height: auto;
+  padding: 10px 5px;
+}
+
+.video {
+	width: 80%;
+	height: 400px;
+	margin-left:10% ;
+	margin-bottom: 20px;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media only screen and (max-width:1100px) {
+  /* For tablets: */
+  h1 {
+  	font-size: 50px;
+  }
+  section{
+    font-size: 16px;
+  }
+  .haku{
+    visibility: hidden;
+  }
+  .fixed-bg {
+    max-height: 400px;
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+  }
+  .fixed-bg2 {
+    max-height: 400px;
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+  }
+  .fixed-bg3 {
+    max-height: 400px;
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+  }
+  .fixed-bg4 {
+    max-height: 400px;
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+
+h1 {
+	font-size: 45px;
+}
+section{
+  font-size: 14px;
+  line-height: 25px;
+}
+.haku {
+  visibility: hidden;
+}
+.video {
+  width: 90%;
+  height: 300px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+}
+

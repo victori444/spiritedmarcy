@@ -1,0 +1,87 @@
+body {
+  background-color: #eee1d2;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bathhouse {
+  height: 600px;
+}
+
+header {
+  background-image: url('../backgrounds/bathhouse.png');
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+h1 {
+  color: white;
+  line-height: 600px;
+  padding: 0 20px;
+  font-size: 70px;
+  font-family: Georgia, sans-serif
+}
+
+.text {
+  font-size: 18px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  line-height: 30px;
+  max-width: 1000px;
+  font-family: Georgia, Times, serif;
+}
+
+.token1, .token2, .token3, .token4 {
+  overflow: hidden;
+}
+
+/* MOBILE */
+@media only screen and (max-width:1100px) {
+  /* For tablets: */
+
+  header {
+  	height: 500px;
+  }
+  h1 {
+  	font-size: 50px; 
+    line-height: 55px;
+    padding: 220px 10px;
+  }
+  iframe {
+    padding: 10px;
+  }
+  .text{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .token1, .token2, .token3, .token4 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  /* For mobile phones: */
+header {
+	height: 400px;
+	margin-top: -30px;
+}
+h1 {
+	font-size: 40px;
+  line-height: 45px;
+  padding: 200px 10px;
+}
+.token1, .token2, .token3, .token4 {
+  visibility: hidden;
+}
+}
